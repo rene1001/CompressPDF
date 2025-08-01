@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://votre-domaine.com/sitemap.xml
+
+# Pages importantes
+Allow: /en/
+Allow: /ru/
+Allow: /zh/
+
+# Empêcher l'indexation des fichiers techniques
+Disallow: /script.js
+Disallow: /.git/
+Disallow: /node_modules/
+
+# Crawl-delay pour éviter de surcharger le serveur
+Crawl-delay: 1 

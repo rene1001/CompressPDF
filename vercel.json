@@ -1,46 +1,77 @@
 {
   "version": 2,
-  "routes": [
+  "rewrites": [
     {
-      "src": "/en",
-      "dest": "/index.html",
-      "headers": {
-        "Content-Language": "en",
-        "X-Robots-Tag": "index, follow"
-      }
+      "source": "/en",
+      "destination": "/index.html"
     },
     {
-      "src": "/ru",
-      "dest": "/index.html",
-      "headers": {
-        "Content-Language": "ru",
-        "X-Robots-Tag": "index, follow"
-      }
+      "source": "/ru",
+      "destination": "/index.html"
     },
     {
-      "src": "/zh",
-      "dest": "/index.html",
-      "headers": {
-        "Content-Language": "zh-CN",
-        "X-Robots-Tag": "index, follow"
-      }
-    },
-    {
-      "src": "/sitemap.xml",
-      "dest": "/sitemap.xml",
-      "headers": {
-        "Content-Type": "application/xml"
-      }
-    },
-    {
-      "src": "/robots.txt",
-      "dest": "/robots.txt",
-      "headers": {
-        "Content-Type": "text/plain"
-      }
+      "source": "/zh",
+      "destination": "/index.html"
     }
   ],
   "headers": [
+    {
+      "source": "/en",
+      "headers": [
+        {
+          "key": "Content-Language",
+          "value": "en"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        }
+      ]
+    },
+    {
+      "source": "/ru",
+      "headers": [
+        {
+          "key": "Content-Language",
+          "value": "ru"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        }
+      ]
+    },
+    {
+      "source": "/zh",
+      "headers": [
+        {
+          "key": "Content-Language",
+          "value": "zh-CN"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        }
+      ]
+    },
+    {
+      "source": "/sitemap.xml",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/xml"
+        }
+      ]
+    },
+    {
+      "source": "/robots.txt",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain"
+        }
+      ]
+    },
     {
       "source": "/(.*)",
       "headers": [

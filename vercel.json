@@ -14,6 +14,7 @@
       "destination": "/index.html"
     }
   ],
+
   "headers": [
     {
       "source": "/en",
@@ -86,7 +87,7 @@
       "headers": [
         {
           "key": "Content-Type",
-          "value": "text/html"
+          "value": "text/html; charset=utf-8"
         }
       ]
     },

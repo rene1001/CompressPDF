@@ -1,0 +1,39 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1D4ED8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Fond circulaire -->
+  <circle cx="100" cy="100" r="90" fill="url(#grad1)" stroke="#1E40AF" stroke-width="2"/>
+  
+  <!-- Document PDF stylisé -->
+  <rect x="60" y="40" width="80" height="100" rx="8" fill="white" stroke="#E5E7EB" stroke-width="2"/>
+  
+  <!-- Coin plié -->
+  <path d="M 120 40 L 140 40 L 140 60 L 120 40 Z" fill="#F3F4F6"/>
+  
+  <!-- Lignes de texte -->
+  <rect x="70" y="60" width="60" height="3" rx="1.5" fill="#6B7280"/>
+  <rect x="70" y="70" width="50" height="3" rx="1.5" fill="#9CA3AF"/>
+  <rect x="70" y="80" width="55" height="3" rx="1.5" fill="#9CA3AF"/>
+  <rect x="70" y="90" width="45" height="3" rx="1.5" fill="#9CA3AF"/>
+  <rect x="70" y="100" width="52" height="3" rx="1.5" fill="#9CA3AF"/>
+  <rect x="70" y="110" width="48" height="3" rx="1.5" fill="#9CA3AF"/>
+  
+  <!-- Icône de compression -->
+  <circle cx="100" cy="130" r="12" fill="url(#grad2)"/>
+  <path d="M 95 125 L 100 120 L 105 125 M 95 135 L 100 130 L 105 135" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Étoiles décoratives -->
+  <circle cx="40" cy="60" r="3" fill="#FBBF24" opacity="0.8"/>
+  <circle cx="160" cy="80" r="2" fill="#F59E0B" opacity="0.6"/>
+  <circle cx="50" cy="140" r="2.5" fill="#FCD34D" opacity="0.7"/>
+  <circle cx="150" cy="140" r="2" fill="#F59E0B" opacity="0.5"/>
+</svg> 

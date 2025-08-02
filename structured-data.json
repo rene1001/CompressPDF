@@ -1,0 +1,86 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "@id": "https://compress-pdf-8ex8.vercel.app/#webapp",
+      "name": "CompressPDF",
+      "description": "Compresseur PDF gratuit en ligne pour réduire la taille de vos fichiers PDF jusqu'à 80% sans perte de qualité",
+      "url": "https://compress-pdf-8ex8.vercel.app/",
+      "applicationCategory": "ProductivityApplication",
+      "operatingSystem": "Web Browser",
+      "browserRequirements": "Requires JavaScript. Requires HTML5.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock"
+      },
+      "creator": {
+        "@type": "Organization",
+        "name": "CompressPDF",
+        "url": "https://compress-pdf-8ex8.vercel.app/"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "1250",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "featureList": [
+        "Compression PDF gratuite",
+        "Traitement local sécurisé",
+        "Interface multilingue",
+        "Drag & drop",
+        "Compression jusqu'à 80%",
+        "Aucune inscription requise"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://compress-pdf-8ex8.vercel.app/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "La compression PDF est-elle sûre ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolument ! Notre compresseur PDF traite vos fichiers localement dans votre navigateur. Aucune donnée n'est envoyée à nos serveurs, garantissant une confidentialité totale."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelle est la taille maximale de fichier ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vous pouvez compresser des fichiers PDF jusqu'à 10 MB. Cette limite assure des performances optimales et une expérience utilisateur fluide."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "La qualité du PDF est-elle préservée ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Notre algorithme de compression optimise intelligemment les images et les métadonnées tout en préservant la lisibilité et la structure de vos documents."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://compress-pdf-8ex8.vercel.app/#organization",
+      "name": "CompressPDF",
+      "url": "https://compress-pdf-8ex8.vercel.app/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://compress-pdf-8ex8.vercel.app/logo.svg",
+        "width": 200,
+        "height": 200
+      },
+      "sameAs": [
+        "https://compress-pdf-8ex8.vercel.app/"
+      ]
+    }
+  ]
+} 

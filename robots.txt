@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://votre-domaine.com/sitemap.xml
+Sitemap: https://compress-pdf-8ex8.vercel.app/sitemap.xml
 
 # Pages importantes
 Allow: /en/

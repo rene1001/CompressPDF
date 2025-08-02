@@ -1,0 +1,26 @@
+{
+  "name": "CompressPDF - Compresseur PDF Gratuit en Ligne",
+  "short_name": "CompressPDF",
+  "description": "Compressez vos fichiers PDF gratuitement en ligne. Réduisez la taille de vos PDF jusqu'à 80% sans perte de qualité.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3B82F6",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "sizes": "200x200",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "32x32",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": ["productivity", "utilities"],
+  "lang": "fr",
+  "dir": "ltr"
+} 

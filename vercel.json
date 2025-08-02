@@ -82,6 +82,15 @@
       ]
     },
     {
+      "source": "/googled987e76f2f82471d.html",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/html"
+        }
+      ]
+    },
+    {
       "source": "/(.*)",
       "headers": [
         {
